@@ -102,3 +102,13 @@ footer {
   .jhg {
     max-width: 248px;
   }
+
+@media screen and (max-width: 400px) {
+    footer {
+        width: 400px
+    }
+
+    .footer-right {
+        display:none;
+    }
+}
