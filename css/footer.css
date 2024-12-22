@@ -1,0 +1,119 @@
+@import url(global.css);
+
+footer {
+    font-family: Arial, sans-serif;
+    width: 1300px;
+    padding-bottom: 20px;
+  }
+  
+  .footer-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  
+  .footer-left {
+    max-width: 300px;
+  }
+  
+  .footer-left h2 {
+    color: #ff4500;
+  }
+  
+  .footer-left a {
+    text-decoration: none;
+  }
+  
+  .footer-left .social-icons a img {
+    width: 25px;
+    margin-right: 10px;
+  }
+  
+  .payment-btn {
+    background-color: #ff4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .footer-right {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li a {
+    text-decoration: none;
+    line-height: 1.8;
+  }
+  
+  .footer-note {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+  }
+
+  .social-icons a img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .part h4 {
+    line-height: 80%;
+    width: 172px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  .footer-column li {
+    font-size: 14px;
+  }
+  .part {
+    margin-bottom: 84px;
+  }
+
+  .footer-column {
+    max-width: 231px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .footer-left img {
+    width: 248px;
+  }
+
+  .jhg {
+    max-width: 248px;
+  }
+
+@media screen and (max-width: 400px) {
+    footer {
+        width: 400px;
+        text-align: center;
+    }
+
+    .footer-container {
+      justify-content: center;
+    }
+
+    .footer-right {
+        display:none;
+    }
+}

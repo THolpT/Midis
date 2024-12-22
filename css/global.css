@@ -1,0 +1,47 @@
+:root {
+    --main-color: #FC4C00;
+    --text-color: #303030;
+    --sub-color: #E7E9EF;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url('../fonts/Inter-VariableFont_opsz\,wght.ttf');
+}
+
+.container {
+    width: 1300px;
+}
+
+html {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    color: var(--text-color);
+    font-family: "Inter";
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    background-image: url(../img/Vector.png);
+}
+
+@media screen and (max-width: 400px) {
+    .container {
+        max-width: 400px
+    }
+
+    html {
+        background: url(../img/Vector\ \(10\).png) no-repeat;
+    }
+}
+
+
